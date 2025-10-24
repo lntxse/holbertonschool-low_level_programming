@@ -2,6 +2,7 @@
 
 /**
  * main - Prints all single digit numbers of base 10 starting from 0
+ *        using only putchar
  *
  * Return: Always 0 (Success)
  */
@@ -11,9 +12,9 @@ int main(void)
 
 	for (number = 0; number < 10; number++)
 	{
-		printf("%d", number);
+		putchar(number + '0');
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
 
