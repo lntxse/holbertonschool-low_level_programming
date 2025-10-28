@@ -41,7 +41,7 @@ void FizzBuzz(void)
 }
 
 /**
- * lance fizzbuzz
+ * main - lance fizzbuzz
  *
  * toujours 0
  */
